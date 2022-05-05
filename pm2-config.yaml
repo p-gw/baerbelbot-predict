@@ -1,0 +1,6 @@
+apps:
+  - script: "./bin/run.sh"
+    name: "baerbelbot-predict"
+    autorestart: false
+    cron_restart: "0 5 * * *"
+    watch: false
